@@ -14,7 +14,7 @@ Works in Grok Bot, Grok Build, Claude Code, Cursor, Codex, ChatGPT and Claude.
 | 1 | [Market Researcher](skills/01-market-researcher/SKILL.md) | Reads what your buyers say online and turns it into a weekly brief on what to talk about. | Reddit, Exa, Parallel | none |
 | 2 | [Competitor Spy](skills/02-competitor-spy/SKILL.md) | Tracks rival pages, prices, tech stacks and the ads they keep paying for. | Company data, Firecrawl, Meta Ads, BuiltWith | none |
 | 3 | [SEO Machine](skills/03-seo-machine/SKILL.md) | Finds the searches you don't rank for yet and drafts the pages to win them. | DataForSEO, Serper | Paper (optional) |
-| 4 | [Content Studio](skills/04-content-studio/SKILL.md) | Turns one idea into ad videos and a newsletter, then finds the creators to push it. | influencers.club | Sume, beehiiv |
+| 4 | [Content Studio](skills/04-content-studio/SKILL.md) | Turns one idea into ad videos and a newsletter, then finds the creators to push it. | LinkedIn post search, influencers.club | Sume, beehiiv |
 | 5 | [Growth Operator](skills/05-growth-operator/SKILL.md) | Prepares the nurture emails, drafts partner outreach, logs every lead in your CRM and reports what converts in Slack. | Enrichment, email finding, Slack | Customer.io, Dub, Twenty, PostHog |
 | 6 | [Inbound x Outbound](skills/06-inbound-outbound/SKILL.md) | Turns every signup and site visitor into an enriched lead, loads the outbound follow-up and pings your team in Slack when someone replies. | Visitor ID, enrichment, email finding, Instantly, Slack | none |
 
@@ -65,10 +65,10 @@ All official, all optional: an agent without one of them returns a draft to past
 | Paper | 03 SEO Machine | Paper desktop app ([paper.design](https://paper.design)) |
 | Sume | 04 Content Studio | Your Sume account |
 | beehiiv | 04 Content Studio | `https://mcp.beehiiv.com/mcp` (OAuth) |
-| PostHog | 05 Growth Operator | `https://mcp.posthog.com/mcp` |
+| PostHog | 05 Growth Operator | `https://mcp.posthog.com/mcp` (EU: `mcp-eu.posthog.com/mcp`) |
 | Customer.io | 05 Growth Operator | `https://mcp.customer.io/mcp` (an admin enables it first) |
 | Dub | 05 Growth Operator | `https://mcp.dub.sh/mcp/dub-partners` and `/mcp/dub-links` (Dub API key) |
-| Twenty | 05 Growth Operator | Your Twenty workspace URL ([docs](https://docs.twenty.com/user-guide/ai/capabilities/mcp)) |
+| Twenty | 05 Growth Operator | `https://<your-workspace>.twenty.com/mcp` ([docs](https://docs.twenty.com/user-guide/ai/capabilities/mcp)) |
 
 `install/all-mcps.json` holds the ColdIQ, PostHog, Customer.io and beehiiv servers in one block for Claude Code or Cursor.
 
