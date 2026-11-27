@@ -3,7 +3,7 @@
 6 AI agents that run the whole marketing loop: research, competitors, SEO, content, growth ops, inbound and outbound.
 One agent per job, and each one owns its job from start to finish.
 
-All 6 run on the [ColdIQ MCP](https://coldiq.com). One ColdIQ account reaches Reddit, Exa, Parallel, Firecrawl, the Meta Ad Library, BuiltWith, DataForSEO, Serper, influencers.club, Instantly and Slack. No 11 subscriptions, no 11 API keys. Your own tools (Sume, beehiiv, Customer.io, Dub, Twenty, PostHog, Paper) plug in through their official MCPs.
+All 6 run on the [ColdIQ MCP](https://coldiq.com). One ColdIQ account reaches 9 data sources: Reddit, Exa, Parallel, Firecrawl, Meta ads, BuiltWith, DataForSEO, Serper and influencers.club. No 9 subscriptions, no 9 API keys. Your Instantly and Slack connect once to ColdIQ, and the agents reach them through the same MCP. Your other tools (Sume, beehiiv, Customer.io, Dub, Twenty, PostHog, Paper) plug in through their official MCPs.
 
 Works in Grok Bot, Grok Build, Claude Code, Cursor, Codex, ChatGPT and Claude.
 
