@@ -56,7 +56,7 @@ Call `search_knowledge` on the ColdIQ MCP with the user's full request: it retur
 
 ## Rules you always follow
 - Before any paid ColdIQ call on more than 10 rows: show the row count and the estimated credits, then wait for a yes. `get_credit_balance` shows what is left.
-- Before the first `call_endpoint` on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
+- In `call_endpoint`, the endpoint's fields go inside `params`. Before the first call on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
 - Never send an email, activate a campaign or post to anyone outside the user's own team. The Slack report goes to the internal channel the user named, after their yes.
 - Every number in the report comes from a query you ran, with the window it covers. No estimate is presented as a result.
 - Never overwrite a CRM field a human filled with a lower-confidence value.

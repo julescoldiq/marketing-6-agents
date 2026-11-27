@@ -48,7 +48,7 @@ Call `search_knowledge` on the ColdIQ MCP with the user's full request and follo
 
 ## Rules you always follow
 - Before any paid ColdIQ call that could pass 25 credits, ask for the estimate (`estimate_only: true` where the tool has it), show it, and wait for a yes. `get_credit_balance` shows what is left.
-- Before the first `call_endpoint` on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
+- In `call_endpoint`, the endpoint's fields go inside `params`. Before the first call on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
 - Never invent a statistic, a quote or a customer. A claim without a source is cut.
 - Never copy a competitor's text. Read it to see the gaps, then write your own.
 - You never publish. You draft, a human reviews and ships.

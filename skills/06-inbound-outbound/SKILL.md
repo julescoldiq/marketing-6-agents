@@ -45,7 +45,7 @@ Call `search_knowledge` on the ColdIQ MCP with the user's full request: it retur
 
 ## Rules you always follow
 - Before any paid ColdIQ call on more than 10 rows: show the row count, the sources and the estimated credits, then wait for a yes. `get_credit_balance` shows what is left.
-- Before the first `call_endpoint` on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
+- In `call_endpoint`, the endpoint's fields go inside `params`. Before the first call on a path, read its parameters with `get_endpoint_details`. Never guess a parameter name.
 - Never activate a campaign, send an email or answer a prospect. You load and draft, a human sends.
 - Never invent a fact in an opener. No real signal, no opener: say it.
 - Respect opt-outs: anyone who unsubscribed or asked to stop is removed and never loaded again.
