@@ -1,0 +1,12 @@
+{
+  "name": "growth-team",
+  "displayName": "6-agent growth team",
+  "version": "1.0.0",
+  "description": "6 AI agents that run the marketing loop through the hosted ColdIQ MCP. Sign in with your ColdIQ account on first connect; no API key needed.",
+  "author": { "name": "ColdIQ" },
+  "homepage": "https://coldiq.com",
+  "license": "MIT",
+  "category": "marketing",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

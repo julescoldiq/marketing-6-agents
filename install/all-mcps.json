@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coldiq": { "type": "http", "url": "https://mcp.coldiq.com/mcp" },
+    "posthog": { "type": "http", "url": "https://mcp.posthog.com/mcp" },
+    "customerio": { "type": "http", "url": "https://mcp.customer.io/mcp" },
+    "beehiiv": { "type": "http", "url": "https://mcp.beehiiv.com/mcp" }
+  }
+}

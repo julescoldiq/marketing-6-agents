@@ -1,0 +1,8 @@
+{
+  "name": "growth-team",
+  "description": "6 AI agents that run the marketing loop: research, competitors, SEO, content, growth ops and inbound x outbound. Data through the hosted ColdIQ MCP (https://mcp.coldiq.com/mcp).",
+  "author": { "name": "ColdIQ", "url": "https://coldiq.com" },
+  "homepage": "https://coldiq.com",
+  "license": "MIT",
+  "keywords": ["marketing", "growth", "seo", "content", "coldiq", "mcp"]
+}
